@@ -167,9 +167,11 @@ def main():
                 led.toggle()
                 time.sleep(1)
 
-        hum = 59
-        temp = 23
-        ok = True
+        # For testing push failures
+        #
+        # hum = 59
+        # temp = 23
+        # ok = True
             
         # Build & push
         try:
